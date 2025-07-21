@@ -1,0 +1,24 @@
+# Node.js dependencies
+/node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+
+# Optional cache directories
+.npm/
+.yarn/
+
+# Optional directories for IDEs
+.idea/
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Logs and local storage for Docker
+docker-compose.override.yml
