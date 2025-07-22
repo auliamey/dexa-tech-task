@@ -127,7 +127,7 @@ export default function AdminEmployeeForm({ onCreated }: Props) {
 
           <DialogPortal>
             <DialogOverlay />
-            <DialogContent>
+            <DialogContent showCloseButton={false}>
               <DialogTitle>Confirm Create</DialogTitle>
               <DialogDescription>
                 Are you sure you want to create <strong>{name || 'this employee'}</strong>?

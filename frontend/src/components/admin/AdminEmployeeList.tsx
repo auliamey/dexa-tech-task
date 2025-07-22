@@ -226,7 +226,7 @@ export default function AdminEmployeeList({ refreshTrigger }: AdminEmployeeListP
       <Dialog open={confirmUpdateOpen} onOpenChange={setConfirmUpdateOpen}>
         <DialogPortal>
           <DialogOverlay />
-          <DialogContent>
+          <DialogContent showCloseButton={false}>
             <DialogTitle>Confirm Update</DialogTitle>
             <DialogDescription>
               Are you sure you want to save changes to <strong>{name}</strong>?
@@ -250,7 +250,7 @@ export default function AdminEmployeeList({ refreshTrigger }: AdminEmployeeListP
       >
         <DialogPortal>
           <DialogOverlay />
-          <DialogContent>
+          <DialogContent showCloseButton={false}>
             <DialogTitle>Confirm Delete</DialogTitle>
             <DialogDescription>
               Are you sure you want to delete this employee?
