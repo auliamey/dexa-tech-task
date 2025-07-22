@@ -134,7 +134,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggle }) => {
 
           <DialogPortal>
             <DialogOverlay />
-            <DialogContent>
+            <DialogContent showCloseButton={false}>
               <DialogTitle>Confirm Logout</DialogTitle>
               <DialogDescription>
                 Are you sure you want to log out?
