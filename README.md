@@ -16,5 +16,3 @@ This monorepo contains two separate applications:
 Clone the repo and install dependencies for both apps:
 
 ```bash
-git clone https://github.com/your-username/dexa.git
-cd dexa
