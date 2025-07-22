@@ -16,3 +16,5 @@ This monorepo contains two separate applications:
 Clone the repo and install dependencies for both apps:
 
 ```bash
+git clone https://github.com/auliamey/dexa-tech-task.git
+cd dexa-tech-task
